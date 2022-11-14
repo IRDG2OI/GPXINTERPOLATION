@@ -1,5 +1,10 @@
 #!/bin/bash
-figlet G2OI
+echo '
+ / ___|___ \ / _ \_ _|
+| |  _  __) | | | | | 
+| |_| |/ __/| |_| | | 
+ \____|_____|\___/___|
+'
 INTERPOL_TIME=0.25 # 1/4 seconds
 
 echo "Processing bruts folders"
@@ -33,4 +38,9 @@ for n in *nodup*;
     cd ..
 done
 echo "Interpolation finished !"
-figlet G2OI
+echo '
+ / ___|___ \ / _ \_ _|
+| |  _  __) | | | | | 
+| |_| |/ __/| |_| | | 
+ \____|_____|\___/___|
+'
